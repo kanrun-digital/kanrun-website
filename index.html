@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KANRUN Digital — екосистема AI-продуктів для бізнесу</title>
+  <meta name="description" content="KANRUN Digital — студія AI-операційних систем. Шість SaaS-продуктів для локального бізнесу та маркетингу: OrderOps, Salon OS, TolQA, SEO Engine, Outreach Ops, Transcriber." />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <noscript>
+    <link rel="stylesheet" href="styles.css" />
+  </noscript>
+</head>
+<body>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="#top" class="logo">
+        <img src="assets/logo-kanrun.png" alt="KANRUN" />
+        <em>Digital</em>
+      </a>
+      <nav class="nav-links">
+        <a href="products.html">Продукти</a>
+        <a href="services.html">Послуги</a>
+        <a href="index.html#method" class="hide-m">Метод</a>
+        <a href="company.html" class="hide-m">Компанія</a>
+        <a href="contacts.html" class="btn btn-primary">Обговорити проєкт</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <img src="assets/mark-kanrun.png" alt="" class="hero-mark" aria-hidden="true" />
+        <h1>Шість продуктів.<br />Одна платформа.<br /><span class="accent">Бізнес, що працює сам.</span></h1>
+        <p class="hero-sub">
+          KANRUN Digital проєктує та запускає AI-продукти для локального бізнесу і маркетингу:
+          від операційки ресторанів і салонів до фабрик SEO-контенту та лідогенерації.
+          Мульти-тенантні SaaS, готові до продакшену з першого дня.
+        </p>
+        <div class="hero-cta">
+          <a href="#products" class="btn btn-primary">Дивитися продукти</a>
+          <a href="#method" class="btn btn-ghost">Як ми працюємо</a>
+        </div>
+        <p class="hero-note">Без «скоро буде». Кожен продукт — у власному Docker-контурі, з реальними клієнтами.</p>
+        <div class="hero-chips">
+          <span class="h-chip">AI-агенти</span>
+          <span class="h-chip">SEO-автоматизація</span>
+          <span class="h-chip">Лідогенерація</span>
+          <span class="h-chip">Репутація</span>
+          <span class="h-chip">Транскрибація</span>
+          <span class="h-chip">i18n: PL · UA · EN</span>
+        </div>
+        <div class="hero-stats">
+          <div class="h-stat"><b>6</b><span>SaaS-продуктів в екосистемі</span></div>
+          <div class="h-stat"><b>30+</b><span>LLM-агентів в оркестрації</span></div>
+          <div class="h-stat"><b>3</b><span>ринки: Польща, Україна, EU</span></div>
+          <div class="h-stat"><b>50+</b><span>мов у AI-пайплайнах</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="strip">
+      <div class="wrap strip-row">
+        <span>OrderOps</span><span>Salon OS</span><span>TolQA</span><span>SEO Engine</span><span>Outreach Ops</span><span>Transcriber</span>
+      </div>
+    </div>
+
+    <!-- ECOSYSTEM -->
+    <section id="ecosystem">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <h2>Фабрика продуктів</h2>
+          <p class="sec-sub">
+            Кожен наш продукт — повноцінна мульти-тенантна платформа з власним GitHub-репозиторієм,
+            продакшен-деплоєм і реальними клієнтами. Усі шість побудовані на спільному
+            технологічному ядрі, тому інтегруються одна з одною так само легко, як із вашим бізнесом.
+          </p>
+        </div>
+        <div class="clusters">
+          <div class="cluster reveal">
+            <h3>Операційка для локального бізнесу</h3>
+            <p>Системи, що замінюють хаос таблиць і чатів на керований бізнес-процес: у ресторані, салоні та на карті відгуків.</p>
+            <div class="cluster-items">
+              <a class="cluster-item" href="#p-orderops"><span class="ci-name">OrderOps</span><span class="ci-desc">ресторани: меню, замовлення, доставка</span></a>
+              <a class="cluster-item" href="#p-salonos"><span class="ci-name">Salon OS</span><span class="ci-desc">салони краси: запис, каса, склад</span></a>
+              <a class="cluster-item" href="#p-tolqa"><span class="ci-name">TolQA</span><span class="ci-desc">репутація: відгуки, рейтинг, відповіді</span></a>
+            </div>
+          </div>
+          <div class="cluster alt reveal">
+            <h3>Маркетинг і ріст</h3>
+            <p>AI-інструменти, що знаходять клієнтів, виробляють контент і перетворюють звук та відео на знання.</p>
+            <div class="cluster-items">
+              <a class="cluster-item" href="#p-seo"><span class="ci-name">SEO Engine</span><span class="ci-desc">фабрика SEO-контенту на LLM-агентах</span></a>
+              <a class="cluster-item" href="#p-outreach"><span class="ci-name">Outreach Ops</span><span class="ci-desc">B2B-лідогенерація: пошук, збагачення, листи</span></a>
+              <a class="cluster-item" href="#p-transcriber"><span class="ci-name">Transcriber</span><span class="ci-desc">транскрибація + AI-чат із таймкодами</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products" style="padding-top:0">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <h2>Шість розв'язань, які вже працюють</h2>
+          <p class="sec-sub">Кожен продукт живе в Docker-контурі, проходить security-аудити та обслуговує реальних клієнтів.</p>
+        </div>
+        <div class="products">
+
+          <article class="product reveal" id="p-orderops">
+            <div class="product-top">
+              <div class="p-icon">O</div>
+              <span class="p-badge live">у продакшені</span>
+            </div>
+            <h3>OrderOps</h3>
+            <p class="p-tagline">Централізована платформа для ресторанів: меню, замовлення, білінг та інтеграції з доставкою в одному дашборді.</p>
+            <p class="p-audience">Ресторани · дарк-кітчени · мережі</p>
+            <div class="p-chips"><span class="chip">Syrve</span><span class="chip">Glovo</span><span class="chip">Bolt Food</span><span class="chip">Wolt</span><span class="chip">Uber Eats</span><span class="chip">QR-меню</span></div>
+            <button class="p-toggle" aria-expanded="false" aria-controls="d-orderops">Детальніше <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+            <div class="p-detail" id="d-orderops"><div class="p-detail-inner"><ul>
+              <li>Синхронізація меню між POS та агрегаторами доставки</li>
+              <li>Пайплайн замовлень: вебхуки → черга → пересилання в POS</li>
+              <li>Гео-зони доставки з KML-імпортом і серверним роутингом</li>
+              <li>Мульти-тенантний доступ: Owner, Admin, Manager, Staff</li>
+              <li>QR-меню для замовлення в залі без застосунку</li>
+            </ul><p class="p-proof">→ Next.js 16 · React 19 · Docker/Caddy · мульти-тенантний білінг</p></div></div>
+          </article>
+
+          <article class="product reveal" id="p-salonos">
+            <div class="product-top">
+              <div class="p-icon">S</div>
+              <span class="p-badge live">перший клієнт</span>
+            </div>
+            <h3>Salon OS</h3>
+            <p class="p-tagline">Операційна система салону краси: календар, клієнтська база, каса, абонементи та онлайн-запис.</p>
+            <p class="p-audience">Салони краси · барбершопи · студії</p>
+            <div class="p-chips"><span class="chip">Календар</span><span class="chip">Онлайн-запис</span><span class="chip">Каса</span><span class="chip">Абонементи</span><span class="chip">UA / PL</span></div>
+            <button class="p-toggle" aria-expanded="false" aria-controls="d-salonos">Детальніше <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+            <div class="p-detail" id="d-salonos"><div class="p-detail-inner"><ul>
+              <li>Календар-сітка дня з колонками майстрів, як у DIKIDI, тільки ваш</li>
+              <li>Гість записується онлайн без реєстрації: послуга, майстер, час</li>
+              <li>Каса, техкарти, склад і абонементи в одному тенанті</li>
+              <li>Повна міграція з DIKIDI: клієнти, візити, послуги, майстри</li>
+            </ul><p class="p-proof">→ Кейс: Bordo Studio, Вроцлав, 2 403 клієнти та 5 382 візити</p></div></div>
+          </article>
+
+          <article class="product reveal" id="p-tolqa">
+            <div class="product-top">
+              <div class="p-icon">T</div>
+              <span class="p-badge live">live · tolqa.com</span>
+            </div>
+            <h3>TolQA</h3>
+            <p class="p-tagline">Управління репутацією: збір відгуків через SMS, email і QR, AI-відповіді в тоні бренду, сценарії зростання рейтингу.</p>
+            <p class="p-audience">Локальний бізнес · мережі локацій · агенції</p>
+            <div class="p-chips"><span class="chip">Google Reviews</span><span class="chip">AI-відповіді</span><span class="chip">Сценарії рейтингу</span><span class="chip">EN / PL / UK</span></div>
+            <button class="p-toggle" aria-expanded="false" aria-controls="d-tolqa">Детальніше <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+            <div class="p-detail" id="d-tolqa"><div class="p-detail-inner"><ul>
+              <li>Автоворонки збору відгуків: SMS, email, QR у точці контакту</li>
+              <li>AI-відповіді в тоні бренду з guardrails і апрувом людини</li>
+              <li>Калькулятор зростання рейтингу: ціль, кількість відгуків, строк</li>
+              <li>Аналітика сентименту за локаціями і каналами</li>
+              <li>Окремий партнерський шлях для агенцій і реселлерів</li>
+            </ul><p class="p-proof">→ React + Vite · Cloudflare Worker edge · NoCodeBackend</p></div></div>
+          </article>
+
+          <article class="product reveal" id="p-seo">
+            <div class="product-top">
+              <div class="p-icon">E</div>
+              <span class="p-badge live">v2.1 live</span>
+            </div>
+            <h3>SEO Engine</h3>
+            <p class="p-tagline">AI-фабрика SEO-контенту: ~30 LLM-агентів перетворюють семантичне ядро на кластери, pillar-сторінки та публікації.</p>
+            <p class="p-audience">E-commerce · контент-команди · агенції</p>
+            <div class="p-chips"><span class="chip">30 LLM-агентів</span><span class="chip">DataForSEO</span><span class="chip">WordPress</span><span class="chip">OpenCart</span><span class="chip">E-E-A-T</span></div>
+            <button class="p-toggle" aria-expanded="false" aria-controls="d-seo">Детальніше <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+            <div class="p-detail" id="d-seo"><div class="p-detail-inner"><ul>
+              <li>6-стадійний ресерч ключових слів + кластеризація під topical authority</li>
+              <li>19-стадійний пайплайн статті: outline, драфт, аудит за 7 критеріями, публікація</li>
+              <li>BrandProfile: позиціонування, голос і докази в кожному промпті</li>
+              <li>Рерайтери карток товарів WooCommerce та OpenCart</li>
+              <li>Дашборд вартості генерації та A/B-тести LLM-провайдерів</li>
+            </ul><p class="p-proof">→ Next.js 16 RSC · OpenRouter · evals + golden-set регресії</p></div></div>
+          </article>
+
+          <article class="product reveal" id="p-outreach">
+            <div class="product-top">
+              <div class="p-icon">R</div>
+              <span class="p-badge live">у продакшені</span>
+            </div>
+            <h3>Outreach Ops</h3>
+            <p class="p-tagline">B2B-лідогенерація як конвеєр: пошук компаній, збагачення контактів, верифікація email та outreach-розсилки.</p>
+            <p class="p-audience">B2B-продажі · агенції · фаундери</p>
+            <div class="p-chips"><span class="chip">Google CSE</span><span class="chip">XMLRiver</span><span class="chip">Outscraper</span><span class="chip">Reoon</span><span class="chip">UniOne</span></div>
+            <button class="p-toggle" aria-expanded="false" aria-controls="d-outreach">Детальніше <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+            <div class="p-detail" id="d-outreach"><div class="p-detail-inner"><ul>
+              <li>Асинхронний пайплайн search_tasks: збір ніші, дедуплікація, експорт</li>
+              <li>Каскад contact lineage: компанія, контакт, email із P0-інваріантами</li>
+              <li>Верифікація email перед відправкою: не потрапляємо в спам-листи</li>
+              <li>Мульти-воркспейси з персональними й командними інтеграціями</li>
+              <li>Зберігання секретів із ротацією та gitleaks pre-commit</li>
+            </ul><p class="p-proof">→ BFF на NoCodeBackend · Docker-релізи · аудитний лог</p></div></div>
+          </article>
+
+          <article class="product reveal" id="p-transcriber">
+            <div class="product-top">
+              <div class="p-icon">⌁</div>
+              <span class="p-badge live">SaaS · квоти</span>
+            </div>
+            <h3>Transcriber</h3>
+            <p class="p-tagline">Завантажили аудіо чи відео, отримали транскрипт із діаризацією та AI-чат із відповідями за таймкодами.</p>
+            <p class="p-audience">Команди · дослідники · продюсери контенту</p>
+            <div class="p-chips"><span class="chip">50+ мов</span><span class="chip">Діаризація</span><span class="chip">RAG-чат</span><span class="chip">YouTube</span><span class="chip">3 GB upload</span></div>
+            <button class="p-toggle" aria-expanded="false" aria-controls="d-transcriber">Детальніше <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+            <div class="p-detail" id="d-transcriber"><div class="p-detail-inner"><ul>
+              <li>Drag & drop до 3 GB: presigned-завантаження напряму в S3</li>
+              <li>Транскрибація Salad із діаризацією: хто коли говорив</li>
+              <li>RAG-чат за транскриптами: кожна відповідь зі посиланням [HH:MM:SS]</li>
+              <li>Зовнішні джерела: YouTube та довільні URL аудіо/відео</li>
+              <li>Квоти за воркспейсами, лічильники usage, адмін-панель планів</li>
+            </ul><p class="p-proof">→ Next.js 16 · OpenRouter/GLM/Kimi · S3 · webhook-HMAC</p></div></div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- METHOD -->
+    <section id="method" class="method">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <h2>За тижні, не за роки</h2>
+          <p class="sec-sub">
+            Ми не пишемо ТЗ на 6 місяців. Кожен продукт виходить до першого реального клієнта швидко,
+            а потім зростає разом із зворотним зв'язком.
+          </p>
+        </div>
+        <div class="steps">
+          <div class="step reveal">
+            <div class="step-num">01 / СКАН</div>
+            <h3>Знаходимо вузьке горло</h3>
+            <p>Вивчаємо нішу і знаходимо процес, що з'їдає час і гроші: синхронізація меню, ручні відповіді на відгуки, збір лідів у таблицях.</p>
+          </div>
+          <div class="step reveal">
+            <div class="step-num">02 / ЯДРО</div>
+            <h3>Збираємо на спільному стеку</h3>
+            <p>Мульти-тенантність, auth, білінг і деплой беремо з перевіреного ядра. Зосереджуємось на унікальній цінності продукту, а не на інфраструктурі.</p>
+          </div>
+          <div class="step reveal">
+            <div class="step-num">03 / ЗАПУСК</div>
+            <h3>Перший платний клієнт</h3>
+            <p>Продукт виходить у Docker-контур із першим реальним клієнтом уже на старті, як Salon OS із міграцією 2 400+ клієнтів салону з DIKIDI.</p>
+          </div>
+          <div class="step reveal">
+            <div class="step-num">04 / РІСТ</div>
+            <h3>Операційна підтримка</h3>
+            <p>Security-аудити, ADR-документація, моніторинг, релізні гейти. Продукт живе й розвивається: з нами або у вашій команді.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section id="stack" class="stack-sec">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <h2>Одна архітектура, шість продуктів</h2>
+          <p class="sec-sub">Спільне ядро знижує вартість розробки кожного наступного продукту в рази. Це не збіг, а доктрина.</p>
+        </div>
+        <div class="stack-grid">
+          <div class="stack-card reveal">
+            <div class="sc-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="m2 12 10 5 10-5"/><path d="m2 17 10 5 10-5"/></svg></div>
+            <h3>Multi-tenant SaaS</h3>
+            <p>Ізоляція tenant_id на рівні даних, рольова модель доступу, білінг і квоти. Кожен клієнт у власному контурі даних.</p>
+          </div>
+          <div class="stack-card reveal">
+            <div class="sc-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="12" r="2.5"/><circle cx="19" cy="5" r="2.5"/><circle cx="19" cy="19" r="2.5"/><path d="M7.2 10.8 16.8 6.2M7.2 13.2l9.6 4.6"/></svg></div>
+            <h3>AI-agent orchestration</h3>
+            <p>Десятки LLM-агентів через OpenRouter із A/B-провайдерами, evals на golden-set і контролем вартості кожної генерації.</p>
+          </div>
+          <div class="stack-card reveal">
+            <div class="sc-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2"/><path d="M3 8h18v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8Z"/><path d="M7 12h10M7 16h6"/></svg></div>
+            <h3>Docker-first деплой</h3>
+            <p>Кожен продукт — Docker Compose контракт: Portainer, Caddy з ACME, health-гейти та авто-відкат релізів.</p>
+          </div>
+          <div class="stack-card reveal">
+            <div class="sc-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3.6 8-10V5l-8-3-8 3v7c0 6.4 8 10 8 10Z"/><path d="m8.5 11.5 2.5 2.5 4.5-4.5"/></svg></div>
+            <h3>Security by default</h3>
+            <p>Security review для фінансових і клієнтських поверхонь, gitleaks pre-commit, HMAC-вебхуки, ротація секретів.</p>
+          </div>
+          <div class="stack-card reveal">
+            <div class="sc-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 0 20 15.3 15.3 0 0 1 0-20Z"/></svg></div>
+            <h3>Edge та i18n</h3>
+            <p>Cloudflare Workers на межі, локалі EN, PL, UK з коробки: ринки Польщі, України та ЄС без переробок.</p>
+          </div>
+          <div class="stack-card reveal">
+            <div class="sc-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5v15Z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/><path d="M9 7h7M9 11h5"/></svg></div>
+            <h3>Документація як код</h3>
+            <p>ADR-рішення, runbook'и, системні гайди. Кожен репозиторій можна передати новій команді без втрати контексту.</p>
+          </div>
+        </div>
+        <div class="stack-code reveal">
+<span class="c"># екосистема kanrun-digital</span><br />
+<span class="k">products</span>: [orderops_ncb, salon-os, tolqa, seo-engine, outreach-ops, transcriber-saas]<br />
+<span class="k">stack</span>:&nbsp;&nbsp;&nbsp;&nbsp;[nextjs-16, react-19, tailwind-4, ncb, openrouter, docker, cloudflare]<br />
+<span class="k">markets</span>:&nbsp;&nbsp;[pl, ua, eu] <span class="c"># locales: en / pl / uk</span><br />
+<span class="k">doctrine</span>:&nbsp;<span class="s">"ship to first paying client fast, harden forever"</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- AUDIENCE -->
+    <section id="audience">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <h2>З ким ми працюємо</h2>
+        </div>
+        <div class="aud-cards">
+          <div class="aud-card reveal">
+            <div class="aud-n">/ 01</div>
+            <h3>Власникам бізнесу</h3>
+            <p>Підключаєте готовий продукт екосистеми: ресторану OrderOps, салону Salon OS, репутації TolQA. Запуск за дні, міграція даних наша турбота.</p>
+          </div>
+          <div class="aud-card reveal">
+            <div class="aud-n">/ 02</div>
+            <h3>Маркетинговим командам</h3>
+            <p>SEO Engine, Outreach Ops і Transcriber закривають контент, лідогенерацію та роботу з медіа з прозорою вартістю кожного AI-запуску.</p>
+          </div>
+          <div class="aud-card reveal">
+            <div class="aud-n">/ 03</div>
+            <h3>Партнерам і агенціям</h3>
+            <p>Біла перепродаж продуктів під вашим брендом, спільні впровадження або розробка власного SaaS на нашому ядрі.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="contact" class="cta-sec" style="padding-top:0">
+      <div class="wrap">
+        <div class="cta-box reveal">
+                    <h2>Який продукт розв'яже вашу задачу?</h2>
+          <p>Розкажіть про ваш бізнес чи нішу: запропонуємо готовий розв'язок з екосистеми або зберемо новий на нашому ядрі.</p>
+          <div class="hero-cta">
+            <a href="contacts.html" class="btn btn-primary">Зв'язатися з нами</a>
+            <a href="#products" class="btn btn-ghost">Ще раз до продуктів</a>
+          </div>
+          <p class="cta-mail">partners@kanrun.com.ua</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <a href="#top" class="logo">
+        <img src="assets/logo-kanrun.png" alt="KANRUN" />
+        <em>Digital</em>
+      </a>
+      <div class="footer-links">
+        <a href="products.html">Продукти</a>
+        <a href="services.html">Послуги</a>
+        <a href="company.html">Компанія</a>
+        <a href="contacts.html">Контакти</a>
+      </div>
+      <p>© 2026 Kanrun Digital. Усі права захищено.</p>
+    </div>
+  </footer>
+
+  <script>
+    // scroll reveal
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    // product expand/collapse with ARIA state
+    document.querySelectorAll('.p-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const detail = btn.nextElementSibling;
+        const isOpen = btn.classList.toggle('open');
+        detail.style.maxHeight = isOpen ? detail.scrollHeight + 'px' : '0';
+        btn.setAttribute('aria-expanded', String(isOpen));
+        btn.firstChild.textContent = isOpen ? 'Сховати ' : 'Детальніше ';
+      });
+    });
+
+    // keep open details measured correctly on resize / late font load
+    window.addEventListener('resize', () => {
+      document.querySelectorAll('.p-toggle.open').forEach(btn => {
+        const d = btn.nextElementSibling;
+        d.style.maxHeight = d.scrollHeight + 'px';
+      });
+    });
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.p-toggle.open').forEach(btn => {
+        const d = btn.nextElementSibling;
+        d.style.maxHeight = d.scrollHeight + 'px';
+      });
+    });
+  </script>
+</body>
+</html>

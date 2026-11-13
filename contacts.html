@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Контакти — KANRUN Digital</title>
+  <meta name="description" content="Зв'яжіться з KANRUN Digital: відповідь за 24 години, безкоштовний консультаційний дзвінок, прозора пропозиція." />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="index.html" class="logo">
+        <img src="assets/logo-kanrun.png" alt="KANRUN" />
+        <em>Digital</em>
+      </a>
+      <nav class="nav-links">
+        <a href="products.html">Продукти</a>
+        <a href="services.html">Послуги</a>
+        <a href="index.html#method" class="hide-m">Метод</a>
+        <a href="company.html" class="hide-m">Компанія</a>
+        <a href="contacts.html" class="btn btn-primary">Обговорити проєкт</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <div class="crumbs"><a href="index.html">KANRUN Digital</a> /</div>
+        <h1>Давайте обговоримо вашу задачу</h1>
+        <p class="hero-sub">Розкажіть про бізнес чи нішу: запропонуємо готовий продукт з екосистеми, послугу або зберемо новий SaaS на нашому ядрі.</p>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="contact-grid">
+          <div class="contact-card reveal">
+            <h2>Контакти</h2>
+            <p style="color:var(--ink-muted);font-size:14.5px;margin-bottom:10px">Для проєктів, партнерств та white-label:</p>
+            <a class="contact-mail" href="mailto:partners@kanrun.com.ua">partners@kanrun.com.ua</a>
+            <div class="svc-cta">
+              <a class="btn btn-primary" href="mailto:partners@kanrun.com.ua?subject=Проєкт%20KANRUN">Написати листа</a>
+              <a class="btn btn-dark btn-sm" href="services.html" style="align-self:center">Спочатку до послуг</a>
+            </div>
+            <p style="color:var(--ink-dim);font-size:13px;margin-top:22px">Якщо листа стосується конкретного продукту — вкажіть його назву в темі: швидше потрапить до потрібної команди.</p>
+          </div>
+          <div class="contact-card reveal">
+            <h2>Що буде далі</h2>
+            <ul class="next-steps">
+              <li><span class="ns-n">/ 01</span><span><b>Відповідь за 24 години.</b> Без авто-листів у стилі «ми отримали ваш запит» — пише жива людина.</span></li>
+              <li><span class="ns-n">/ 02</span><span><b>Безкоштовний 30-хвилинний дзвінок.</b> Розбираємо задачу та пропонуємо готовий розв'язок з екосистеми або план послуги.</span></li>
+              <li><span class="ns-n">/ 03</span><span><b>Прозора пропозиція.</b> Фіксуємо склад, строки та вартість. Жодних «уточнимо в процесі».</span></li>
+              <li><span class="ns-n">/ 04</span><span><b>Старт за дні.</b> Для продуктів екосистеми — підключення та міграція даних на нашому боці.</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap footer-inner">
+      <a href="index.html" class="logo">
+        <img src="assets/logo-kanrun.png" alt="KANRUN" />
+        <em>Digital</em>
+      </a>
+      <div class="footer-links">
+        <a href="products.html">Продукти</a>
+        <a href="services.html">Послуги</a>
+        <a href="company.html">Компанія</a>
+        <a href="contacts.html">Контакти</a>
+      </div>
+      <p>© 2026 Kanrun Digital. Усі права захищено.</p>
+    </div>
+  </footer>
+  <script>
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  </script>
+</body>
+</html>
